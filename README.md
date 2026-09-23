@@ -70,7 +70,7 @@ Autoboxing (avoided here via primitive arrays).
 Branch prediction (QuickSort's data-dependent branches are harder to predict than MergeSort's regular merge loop).
 E. Reflection
 Actually i had problems with understanding all of this methods and with weak Java skills because this language is little bit hard for me.
-I can lie i used AI tools for my assignment for understanding tasks and explanations 
+I cant lie i used AI tools for my assignment for understanding tasks and explanations 
     F.Screenshots
 1.Tests
 <img width="633" height="504" alt="Снимок экрана 2026-09-23 114917" src="https://github.com/user-attachments/assets/acbd08e2-3253-4d2f-b1d3-e20134cf9953" />

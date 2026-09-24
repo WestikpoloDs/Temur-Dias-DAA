@@ -71,9 +71,6 @@ Branch prediction (QuickSorts data-dependent branches are harder to predict than
 E. Reflection
 Actually i had problems with understanding all of this methods and with weak Java skills because this language is little bit hard for me. 
     F.Screenshots
-1.Tests
-<img width="633" height="504" alt="Снимок экрана 2026-09-23 114917" src="https://github.com/user-attachments/assets/acbd08e2-3253-4d2f-b1d3-e20134cf9953" />
-2.Main
-<img width="894" height="94" alt="Снимок экрана 2026-09-23 114852" src="https://github.com/user-attachments/assets/380e4279-9214-4b62-a51a-e2e3cb9f87f7" />
-3.Results
-<img width="871" height="881" alt="Снимок экрана 2026-09-23 114834" src="https://github.com/user-attachments/assets/5f774043-23ee-4d93-8682-e6b094d30c0f" />
+1.Tests<img width="633" height="504" alt="Снимок экрана 2026-09-23 114917" src="https://github.com/user-attachments/assets/acbd08e2-3253-4d2f-b1d3-e20134cf9953" />
+2.Main<img width="894" height="94" alt="Снимок экрана 2026-09-23 114852" src="https://github.com/user-attachments/assets/380e4279-9214-4b62-a51a-e2e3cb9f87f7" />
+3.Results<img width="871" height="881" alt="Снимок экрана 2026-09-23 114834" src="https://github.com/user-attachments/assets/5f774043-23ee-4d93-8682-e6b094d30c0f" />

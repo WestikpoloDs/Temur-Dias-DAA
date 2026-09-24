@@ -106,3 +106,13 @@ Actually i had problems with understanding all of this methods and with weak Jav
 3.Results
 
 <img width="871" height="881" alt="Снимок экрана 2026-09-23 114834" src="https://github.com/user-attachments/assets/5f774043-23ee-4d93-8682-e6b094d30c0f" />
+
+Also graphics
+
+1.
+
+<img width="1200" height="900" alt="depth_vs_n" src="https://github.com/user-attachments/assets/fa5e7c3c-8fbe-4d68-b6a6-a3c211f65484" />
+
+2.
+
+<img width="1200" height="900" alt="time_vs_n" src="https://github.com/user-attachments/assets/62651fc9-04d7-4e3c-af8c-50098c3d941e" />

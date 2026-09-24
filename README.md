@@ -35,8 +35,6 @@ Complexity: O(n log n).
 Recurrence: T(n) = 2T(n/2) + O(n) -> Case 2 -> O(n log n).
 C. Experimental Results
 
-Include (from your own real Java run, via Experiment.java → results/results.csv):
-
 A table of execution time (ms) per algorithm × input size × input type.
 A table of max recursion depth per algorithm × input size.
 Two plots: time vs n (log-log) and recursion depth vs n - generate with docs/plots/plot_results.py after running java Main --bench.

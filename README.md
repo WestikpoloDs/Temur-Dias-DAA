@@ -68,7 +68,9 @@ Garbage collection (MergeSort's aux buffer, ClosestPair's array copies create ga
 Cache locality (primitive int[] scanning is cache-friendly; Point[]/HashSet-based splitting has worse locality).
 Autoboxing (avoided here via primitive arrays).
 Branch prediction (QuickSorts data-dependent branches are harder to predict than MergeSort's regular merge loop).
+
 E. Reflection
+
 Actually i had problems with understanding all of this methods and with weak Java skills because this language is little bit hard for me. 
 
 

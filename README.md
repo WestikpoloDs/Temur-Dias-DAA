@@ -58,7 +58,7 @@ The recursive call only ever handles a sub-problem ≤ n/2 (by definition of "sm
 Why does Median-of-Medians guarantee O(n)?
 Grouping into 5s and taking the median of medians guarantees the pivot eliminates a constant fraction (≥3/10) of the array every call, regardless of input — no arrangement can force a bad pivot. The Akra–Bazzi condition (coefficients summing to <1) means total work across all levels is a geometric series dominated by the top level: O(n).
 
-Why is divide-and-conquer Closest Pair faster than O(n²) for large inputs?
+Why is divide-and-conquer Closest Pair faster than O(n^2) for large inputs?
 Brute force checks all C(n,2) = O(n^2) pairs. D&C only compares nearby points: the "combine" step is O(n) per level (bounded-neighbours packing argument), giving O(n log n) total - e.g. at n=1,000,000, n^2 ≈ 10^12 vs n·log₂n approximately 2×10^7, a five-order-of-magnitude difference.
 
 What practical factors affect performance (JVM, cache, GC, etc.)?

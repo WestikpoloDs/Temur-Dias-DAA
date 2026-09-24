@@ -13,7 +13,7 @@ B. Algorithm Analysis
 1. MergeSort
 
 How it works: Recursively splits the array in half, sorts each half, merges with a single linear pass. Subarrays ≤16 elements finish with Insertion Sort; one reusable auxiliary buffer is allocated once per call.
-Complexity: Time Θ(n log n) in all cases; space Θ(n) auxiliary.
+Complexity: Time O(n log n) in all cases; space O(n) auxiliary.
 Recurrence: T(n) = 2T(n/2) + O(n). Master Theorem, a=2, b=2, f(n)=O(n)=Θ(n^log_b(a)) -> Case 2 -> T(n) = O(n log n).
 
 2. QuickSort
@@ -32,7 +32,7 @@ Recurrence: T(n) =< T(n/5) + T(7n/10) + O(n). Doesn't fit Master Theorem (unequa
 
 How it works: Pre-sort by x and y, recursively split by x-midpoint, recurse both halves, combine via a "strip" scan (points within current best distance d of the dividing line), checking each point against a bounded number of y-neighbors.
 Complexity: O(n log n).
-Recurrence: T(n) = 2T(n/2) + O(n) → Case 2 -> O(n log n).
+Recurrence: T(n) = 2T(n/2) + O(n) -> Case 2 -> O(n log n).
 C. Experimental Results
 
 Include (from your own real Java run, via Experiment.java → results/results.csv):

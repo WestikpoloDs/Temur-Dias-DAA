@@ -37,7 +37,7 @@ C. Experimental Results
 
 A table of execution time (ms) per algorithm × input size × input type.
 A table of max recursion depth per algorithm × input size.
-Two plots: time vs n (log-log) and recursion depth vs n - generate with docs/plots/plot_results.py after running java Main --bench.
+Two plots: time vs n (log-log) and recursion depth vs n 
 
 D. Discussion
 

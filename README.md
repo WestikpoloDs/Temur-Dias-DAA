@@ -14,13 +14,13 @@ B. Algorithm Analysis
 
 How it works: Recursively splits the array in half, sorts each half, merges with a single linear pass. Subarrays ≤16 elements finish with Insertion Sort; one reusable auxiliary buffer is allocated once per call.
 Complexity: Time O(n log n) in all cases; space O(n) auxiliary.
-Recurrence: T(n) = 2T(n/2) + O(n). Master Theorem, a=2, b=2, f(n)=O(n)=Θ(n^log_b(a)) -> Case 2 -> T(n) = O(n log n).
+Recurrence: T(n) = 2T(n/2) + O(n). Master Theorem, a=2, b=2, f(n)=O(n)=O(n^log_b(a)) -> Case 2 -> T(n) = O(n log n).
 
 2. QuickSort
 
 How it works: Random pivot, in-place Lomuto partition, recurses into the smaller side, loops (iterates) into the larger side in the same stack frame.
 Complexity: Expected O(n log n); worst case O(n^2) (astronomically unlikely with randomization).
-Recurrence: Expected: T(n)=2T(n/2)+O(n) -> Case 2 -> O(n log n). Worst: T(n)=T(n−1)+O(n) -> o(n^2).
+Recurrence: Expected: T(n)=2T(n/2)+O(n) -> Case 2 -> O(n log n). Worst: T(n)=T(n−1)+O(n) -> O(n^2).
 
 3. Deterministic Select (Median-of-Medians)
 

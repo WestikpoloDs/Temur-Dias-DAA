@@ -53,13 +53,13 @@ Select: largely input-independent by design.
 ClosestPair: runtime depends mainly on n, not point arrangement.
 
 Why does smaller-first recursion help QuickSort?
-The recursive call only ever handles a sub-problem ≤ n/2 (by definition of "smaller half"), so call-stack depth after k recursive calls is at most k, and k ≤ log₂(n). This bounds stack depth to O(log n) even on unlucky splits — it protects against stack overflow, not against O(n^2) worst-case time (that's what randomization is for).
+The recursive call only ever handles a sub-problem <= n/2 (by definition of "smaller half"), so call-stack depth after k recursive calls is at most k, and k <= log₂(n). This bounds stack depth to O(log n) even on unlucky splits - it protects against stack overflow, not against O(n^2) worst-case time (that's what randomization is for).
 
 Why does Median-of-Medians guarantee O(n)?
-Grouping into 5s and taking the median of medians guarantees the pivot eliminates a constant fraction (≥3/10) of the array every call, regardless of input — no arrangement can force a bad pivot. The Akra–Bazzi condition (coefficients summing to <1) means total work across all levels is a geometric series dominated by the top level: O(n).
+Grouping into 5s and taking the median of medians guarantees the pivot eliminates a constant fraction (>=3/10) of the array every call, regardless of input — no arrangement can force a bad pivot. The Akra–Bazzi condition (coefficients summing to <1) means total work across all levels is a geometric series dominated by the top level: O(n).
 
 Why is divide-and-conquer Closest Pair faster than O(n^2) for large inputs?
-Brute force checks all C(n,2) = O(n^2) pairs. D&C only compares nearby points: the "combine" step is O(n) per level (bounded-neighbours packing argument), giving O(n log n) total - e.g. at n=1,000,000, n^2 ≈ 10^12 vs n·log₂n approximately 2×10^7, a five-order-of-magnitude difference.
+Brute force checks all C(n,2) = O(n^2) pairs. D&C only compares nearby points: the "combine" step is O(n) per level (bounded-neighbours packing argument), giving O(n log n) total - e.g. at n=1,000,000, n^2 approximately 10^12 vs n·log₂n approximately 2×10^7, a five-order-of-magnitude difference.
 
 What practical factors affect performance (JVM, cache, GC, etc.)?
 
